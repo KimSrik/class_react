@@ -1,0 +1,55 @@
+- VS Code, Node.js, 
+
+- 터미널
+md (폴더명) = 폴더명으로 폴더를 만든다.
+rd (폴더명) = 폴더명을 가진 폴더를 삭제.
+node -v = Node.js 버전 확인.
+npx create-react-app (경로) = 경로에 react-app를 설치
+npm start = react 구동
+npm run build = build 만들기.
+(빌드 하기 전에 package.json에 "homepage":"."를
+맨위 스코프 안에 맨위에 추가를 꼭 해주어야 한다!!!!!)
+(빌드에 있는것만 깃헙에 올리면 됨.)
+
+- VS Code
+설정 - emmet - include languages - 항목: javascript 값: javascriptreact
+react에서도 emmet 기능을 사용가능.
+
+호이스팅 : 밑에서 선언된 함수를 위에서 사용할 수 있다.
+(컴파일러가 위에서부터 읽는 것을 무시할 수 있다.)
+
+- Node.js 없다면
+npm, npx를 사용할 수 없다.
+(react 서버 못 킴)
+
+
+-- React --
+바인딩 { } : 내부의 내용은 javaScript 문법으로 취급이 된다.
+
+컴포넌트(함수)는 App함수 밖에서 선언해야한다.
+(재사용을 하기 위해서 App함수 밖에서 선언해야함.)
+
+export는 현재 파일을 다른 파일에서 사용할 수 있게 해준다.
+한개 : export default App;
+여러개 : export {App, App2};
+
+-- React-router-dom
+경로 관련.
+npm install react-router-dom@5.3.0  한 후에
+
+App.js 에서 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+
+
+Switch을 사용할 때는 / (Root)는 맨 마지막에 써준다.
++ Routes는 그렇게 안해도 된다.
+
+
+--------------------
+
+
+
+javaScript에서 변수란?
+let k = 
+
+
+
